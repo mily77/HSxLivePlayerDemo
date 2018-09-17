@@ -15,6 +15,7 @@
 		A1E32471214F96A600227A84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E32470214F96A600227A84 /* main.m */; };
 		A1E3247B214F96A600227A84 /* HSxLivePlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E3247A214F96A600227A84 /* HSxLivePlayerDemoTests.m */; };
 		A1E32486214F96A600227A84 /* HSxLivePlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E32485214F96A600227A84 /* HSxLivePlayerDemoUITests.m */; };
+		A1E32496214F9A6B00227A84 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E32495214F9A6B00227A84 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A1E32481214F96A600227A84 /* HSxLivePlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSxLivePlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E32485214F96A600227A84 /* HSxLivePlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSxLivePlayerDemoUITests.m; sourceTree = "<group>"; };
 		A1E32487214F96A600227A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E32494214F9A6B00227A84 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A1E32495214F9A6B00227A84 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		A1E32460214F96A400227A84 /* HSxLivePlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A1E32493214F99F600227A84 /* Classes */,
 				A1E32461214F96A400227A84 /* AppDelegate.h */,
 				A1E32462214F96A400227A84 /* AppDelegate.m */,
 				A1E32464214F96A400227A84 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				A1E32487214F96A600227A84 /* Info.plist */,
 			);
 			path = HSxLivePlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		A1E32493214F99F600227A84 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1E32494214F9A6B00227A84 /* BaseViewController.h */,
+				A1E32495214F9A6B00227A84 /* BaseViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1E32466214F96A400227A84 /* ViewController.m in Sources */,
+				A1E32496214F9A6B00227A84 /* BaseViewController.m in Sources */,
 				A1E32471214F96A600227A84 /* main.m in Sources */,
 				A1E32463214F96A400227A84 /* AppDelegate.m in Sources */,
 			);
