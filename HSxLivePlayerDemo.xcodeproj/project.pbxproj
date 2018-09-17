@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116CA0CBF0F18628C981E149 /* libPods-HSxLivePlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C27E863D62D0E94864C5FA8 /* libPods-HSxLivePlayerDemo.a */; };
 		A1E32463214F96A400227A84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E32462214F96A400227A84 /* AppDelegate.m */; };
 		A1E32466214F96A400227A84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E32465214F96A400227A84 /* ViewController.m */; };
 		A1E32469214F96A400227A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E32467214F96A400227A84 /* Main.storyboard */; };
@@ -18,6 +19,22 @@
 		A1E32496214F9A6B00227A84 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E32495214F9A6B00227A84 /* BaseViewController.m */; };
 		A1E32499214FA26500227A84 /* HSxLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E32498214FA26500227A84 /* HSxLiveViewController.m */; };
 		A1E3249C214FA27900227A84 /* HSxPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E3249B214FA27900227A84 /* HSxPlayerViewController.m */; };
+		A1E3249F214FAC4000227A84 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E3249E214FAC4000227A84 /* libc++.tbd */; };
+		A1E324A1214FAC5600227A84 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324A0214FAC5600227A84 /* libbz2.tbd */; };
+		A1E324A3214FAC6200227A84 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324A2214FAC6200227A84 /* libz.tbd */; };
+		A1E324A5214FAC7400227A84 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324A4214FAC7400227A84 /* VideoToolbox.framework */; };
+		A1E324A7214FAC7E00227A84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324A6214FAC7E00227A84 /* UIKit.framework */; };
+		A1E324A9214FAC8700227A84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324A8214FAC8700227A84 /* QuartzCore.framework */; };
+		A1E324AB214FAC9400227A84 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324AA214FAC9400227A84 /* OpenGLES.framework */; };
+		A1E324AD214FACA900227A84 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324AC214FACA900227A84 /* MobileCoreServices.framework */; };
+		A1E324B1214FACD400227A84 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324B0214FACD400227A84 /* MediaPlayer.framework */; };
+		A1E324B3214FACDE00227A84 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324B2214FACDE00227A84 /* CoreMedia.framework */; };
+		A1E324B5214FACE900227A84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324B4214FACE900227A84 /* CoreGraphics.framework */; };
+		A1E324B7214FACF900227A84 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324B6214FACF900227A84 /* AVFoundation.framework */; };
+		A1E324B9214FAD0D00227A84 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324B8214FAD0D00227A84 /* AudioToolbox.framework */; };
+		A1E324BB214FB11000227A84 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324BA214FB10F00227A84 /* IJKMediaFramework.framework */; };
+		D960225CBACAF70D45BEC56C /* libPods-HSxLivePlayerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A149B437081E3C26D367DEA8 /* libPods-HSxLivePlayerDemoTests.a */; };
+		DECA8634BC17359BA755F46D /* libPods-HSxLivePlayerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FCFDCA3FCBEAB32FE1A9B6 /* libPods-HSxLivePlayerDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		348FF500026190B7E3AC2C6C /* Pods-HSxLivePlayerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSxLivePlayerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSxLivePlayerDemoUITests/Pods-HSxLivePlayerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C27E863D62D0E94864C5FA8 /* libPods-HSxLivePlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSxLivePlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41ADAC64AE38694609853BB9 /* Pods-HSxLivePlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSxLivePlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSxLivePlayerDemo/Pods-HSxLivePlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4C52ADF923385670410320E7 /* Pods-HSxLivePlayerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSxLivePlayerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSxLivePlayerDemoTests/Pods-HSxLivePlayerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DB5E0CBC3897B9B1BBE956D /* Pods-HSxLivePlayerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSxLivePlayerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSxLivePlayerDemoUITests/Pods-HSxLivePlayerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76B408AE1860763A22847270 /* Pods-HSxLivePlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSxLivePlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSxLivePlayerDemo/Pods-HSxLivePlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A149B437081E3C26D367DEA8 /* libPods-HSxLivePlayerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSxLivePlayerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E3245E214F96A400227A84 /* HSxLivePlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSxLivePlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E32461214F96A400227A84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1E32462214F96A400227A84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +84,23 @@
 		A1E32498214FA26500227A84 /* HSxLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSxLiveViewController.m; sourceTree = "<group>"; };
 		A1E3249A214FA27900227A84 /* HSxPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSxPlayerViewController.h; sourceTree = "<group>"; };
 		A1E3249B214FA27900227A84 /* HSxPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSxPlayerViewController.m; sourceTree = "<group>"; };
+		A1E3249E214FAC4000227A84 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A1E324A0214FAC5600227A84 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		A1E324A2214FAC6200227A84 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A1E324A4214FAC7400227A84 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		A1E324A6214FAC7E00227A84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1E324A8214FAC8700227A84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A1E324AA214FAC9400227A84 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A1E324AC214FACA900227A84 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A1E324AE214FACBA00227A84 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		A1E324B0214FACD400227A84 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A1E324B2214FACDE00227A84 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A1E324B4214FACE900227A84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1E324B6214FACF900227A84 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A1E324B8214FAD0D00227A84 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A1E324BA214FB10F00227A84 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		A3FCFDCA3FCBEAB32FE1A9B6 /* libPods-HSxLivePlayerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSxLivePlayerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DD4F7E6119215766B1615E /* Pods-HSxLivePlayerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSxLivePlayerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSxLivePlayerDemoTests/Pods-HSxLivePlayerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +108,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E324B9214FAD0D00227A84 /* AudioToolbox.framework in Frameworks */,
+				A1E324B7214FACF900227A84 /* AVFoundation.framework in Frameworks */,
+				A1E324B5214FACE900227A84 /* CoreGraphics.framework in Frameworks */,
+				A1E324BB214FB11000227A84 /* IJKMediaFramework.framework in Frameworks */,
+				A1E324B3214FACDE00227A84 /* CoreMedia.framework in Frameworks */,
+				A1E324B1214FACD400227A84 /* MediaPlayer.framework in Frameworks */,
+				A1E324AD214FACA900227A84 /* MobileCoreServices.framework in Frameworks */,
+				A1E324AB214FAC9400227A84 /* OpenGLES.framework in Frameworks */,
+				A1E324A9214FAC8700227A84 /* QuartzCore.framework in Frameworks */,
+				A1E324A7214FAC7E00227A84 /* UIKit.framework in Frameworks */,
+				A1E324A5214FAC7400227A84 /* VideoToolbox.framework in Frameworks */,
+				A1E324A3214FAC6200227A84 /* libz.tbd in Frameworks */,
+				A1E324A1214FAC5600227A84 /* libbz2.tbd in Frameworks */,
+				A1E3249F214FAC4000227A84 /* libc++.tbd in Frameworks */,
+				116CA0CBF0F18628C981E149 /* libPods-HSxLivePlayerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D960225CBACAF70D45BEC56C /* libPods-HSxLivePlayerDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +138,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECA8634BC17359BA755F46D /* libPods-HSxLivePlayerDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46965E59DE638B1FD689D7EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41ADAC64AE38694609853BB9 /* Pods-HSxLivePlayerDemo.debug.xcconfig */,
+				76B408AE1860763A22847270 /* Pods-HSxLivePlayerDemo.release.xcconfig */,
+				C3DD4F7E6119215766B1615E /* Pods-HSxLivePlayerDemoTests.debug.xcconfig */,
+				4C52ADF923385670410320E7 /* Pods-HSxLivePlayerDemoTests.release.xcconfig */,
+				6DB5E0CBC3897B9B1BBE956D /* Pods-HSxLivePlayerDemoUITests.debug.xcconfig */,
+				348FF500026190B7E3AC2C6C /* Pods-HSxLivePlayerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1E32455214F96A400227A84 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +165,8 @@
 				A1E32479214F96A600227A84 /* HSxLivePlayerDemoTests */,
 				A1E32484214F96A600227A84 /* HSxLivePlayerDemoUITests */,
 				A1E3245F214F96A400227A84 /* Products */,
+				A1E3249D214FAC4000227A84 /* Frameworks */,
+				46965E59DE638B1FD689D7EF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +228,31 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		A1E3249D214FAC4000227A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1E324BA214FB10F00227A84 /* IJKMediaFramework.framework */,
+				A1E324B8214FAD0D00227A84 /* AudioToolbox.framework */,
+				A1E324B6214FACF900227A84 /* AVFoundation.framework */,
+				A1E324B4214FACE900227A84 /* CoreGraphics.framework */,
+				A1E324B2214FACDE00227A84 /* CoreMedia.framework */,
+				A1E324B0214FACD400227A84 /* MediaPlayer.framework */,
+				A1E324AE214FACBA00227A84 /* MediaAccessibility.framework */,
+				A1E324AC214FACA900227A84 /* MobileCoreServices.framework */,
+				A1E324AA214FAC9400227A84 /* OpenGLES.framework */,
+				A1E324A8214FAC8700227A84 /* QuartzCore.framework */,
+				A1E324A6214FAC7E00227A84 /* UIKit.framework */,
+				A1E324A4214FAC7400227A84 /* VideoToolbox.framework */,
+				A1E324A2214FAC6200227A84 /* libz.tbd */,
+				A1E324A0214FAC5600227A84 /* libbz2.tbd */,
+				A1E3249E214FAC4000227A84 /* libc++.tbd */,
+				3C27E863D62D0E94864C5FA8 /* libPods-HSxLivePlayerDemo.a */,
+				A149B437081E3C26D367DEA8 /* libPods-HSxLivePlayerDemoTests.a */,
+				A3FCFDCA3FCBEAB32FE1A9B6 /* libPods-HSxLivePlayerDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1E3248A214F96A600227A84 /* Build configuration list for PBXNativeTarget "HSxLivePlayerDemo" */;
 			buildPhases = (
+				82242A6E94AA7CD05C7C6705 /* [CP] Check Pods Manifest.lock */,
 				A1E3245A214F96A400227A84 /* Sources */,
 				A1E3245B214F96A400227A84 /* Frameworks */,
 				A1E3245C214F96A400227A84 /* Resources */,
@@ -179,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1E3248D214F96A600227A84 /* Build configuration list for PBXNativeTarget "HSxLivePlayerDemoTests" */;
 			buildPhases = (
+				02F030E0771611F0BA88348B /* [CP] Check Pods Manifest.lock */,
 				A1E32472214F96A600227A84 /* Sources */,
 				A1E32473214F96A600227A84 /* Frameworks */,
 				A1E32474214F96A600227A84 /* Resources */,
@@ -197,6 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1E32490214F96A600227A84 /* Build configuration list for PBXNativeTarget "HSxLivePlayerDemoUITests" */;
 			buildPhases = (
+				016090E5278FBF2DEC1BC2D2 /* [CP] Check Pods Manifest.lock */,
 				A1E3247D214F96A600227A84 /* Sources */,
 				A1E3247E214F96A600227A84 /* Frameworks */,
 				A1E3247F214F96A600227A84 /* Resources */,
@@ -279,6 +380,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016090E5278FBF2DEC1BC2D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSxLivePlayerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		02F030E0771611F0BA88348B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSxLivePlayerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82242A6E94AA7CD05C7C6705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSxLivePlayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1E3245A214F96A400227A84 /* Sources */ = {
@@ -457,10 +615,15 @@
 		};
 		A1E3248B214F96A600227A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41ADAC64AE38694609853BB9 /* Pods-HSxLivePlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA34FPD68L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HSxLivePlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,10 +637,15 @@
 		};
 		A1E3248C214F96A600227A84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B408AE1860763A22847270 /* Pods-HSxLivePlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA34FPD68L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HSxLivePlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -491,6 +659,7 @@
 		};
 		A1E3248E214F96A600227A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3DD4F7E6119215766B1615E /* Pods-HSxLivePlayerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +679,7 @@
 		};
 		A1E3248F214F96A600227A84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C52ADF923385670410320E7 /* Pods-HSxLivePlayerDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +699,7 @@
 		};
 		A1E32491214F96A600227A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB5E0CBC3897B9B1BBE956D /* Pods-HSxLivePlayerDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA34FPD68L;
@@ -547,6 +718,7 @@
 		};
 		A1E32492214F96A600227A84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348FF500026190B7E3AC2C6C /* Pods-HSxLivePlayerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA34FPD68L;
