@@ -25,6 +25,9 @@
                                     <constraint firstAttribute="height" constant="50" id="0BO-a9-GgX"/>
                                 </constraints>
                                 <state key="normal" title="开始直播"/>
+                                <connections>
+                                    <action selector="liveButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rrr-sc-bY8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yh-vh-ndK">
                                 <rect key="frame" x="30" y="301" width="315" height="50"/>
@@ -33,6 +36,9 @@
                                     <constraint firstAttribute="height" constant="50" id="MQT-Bq-wTU"/>
                                 </constraints>
                                 <state key="normal" title="观看直播"/>
+                                <connections>
+                                    <action selector="playerButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D8N-Ra-Cy6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -16,6 +16,8 @@
 		A1E3247B214F96A600227A84 /* HSxLivePlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E3247A214F96A600227A84 /* HSxLivePlayerDemoTests.m */; };
 		A1E32486214F96A600227A84 /* HSxLivePlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E32485214F96A600227A84 /* HSxLivePlayerDemoUITests.m */; };
 		A1E32496214F9A6B00227A84 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E32495214F9A6B00227A84 /* BaseViewController.m */; };
+		A1E32499214FA26500227A84 /* HSxLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E32498214FA26500227A84 /* HSxLiveViewController.m */; };
+		A1E3249C214FA27900227A84 /* HSxPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E3249B214FA27900227A84 /* HSxPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		A1E32487214F96A600227A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1E32494214F9A6B00227A84 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		A1E32495214F9A6B00227A84 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A1E32497214FA26500227A84 /* HSxLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSxLiveViewController.h; sourceTree = "<group>"; };
+		A1E32498214FA26500227A84 /* HSxLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSxLiveViewController.m; sourceTree = "<group>"; };
+		A1E3249A214FA27900227A84 /* HSxPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSxPlayerViewController.h; sourceTree = "<group>"; };
+		A1E3249B214FA27900227A84 /* HSxPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSxPlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,10 @@
 			children = (
 				A1E32494214F9A6B00227A84 /* BaseViewController.h */,
 				A1E32495214F9A6B00227A84 /* BaseViewController.m */,
+				A1E32497214FA26500227A84 /* HSxLiveViewController.h */,
+				A1E32498214FA26500227A84 /* HSxLiveViewController.m */,
+				A1E3249A214FA27900227A84 /* HSxPlayerViewController.h */,
+				A1E3249B214FA27900227A84 /* HSxPlayerViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -278,7 +288,9 @@
 				A1E32466214F96A400227A84 /* ViewController.m in Sources */,
 				A1E32496214F9A6B00227A84 /* BaseViewController.m in Sources */,
 				A1E32471214F96A600227A84 /* main.m in Sources */,
+				A1E3249C214FA27900227A84 /* HSxPlayerViewController.m in Sources */,
 				A1E32463214F96A400227A84 /* AppDelegate.m in Sources */,
+				A1E32499214FA26500227A84 /* HSxLiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

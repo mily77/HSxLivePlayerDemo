@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "HSxLiveViewController.h"
+#import "HSxPlayerViewController.h"
 
 @interface ViewController ()
 
@@ -16,14 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)liveButtonAction:(id)sender {
+    HSxLiveViewController *liveVC = [[HSxLiveViewController alloc] init];
+    [self presentViewController:liveVC animated:YES completion:nil];
 }
-
+- (IBAction)playerButtonAction:(id)sender {
+    HSxPlayerViewController *playerVC = [[HSxPlayerViewController alloc] init];
+    [self presentViewController:playerVC animated:YES completion:nil];
+}
 
 @end
