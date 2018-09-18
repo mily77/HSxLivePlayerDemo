@@ -33,6 +33,9 @@
 		A1E324B7214FACF900227A84 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324B6214FACF900227A84 /* AVFoundation.framework */; };
 		A1E324B9214FAD0D00227A84 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324B8214FAD0D00227A84 /* AudioToolbox.framework */; };
 		A1E324BB214FB11000227A84 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E324BA214FB10F00227A84 /* IJKMediaFramework.framework */; };
+		A1E324C2214FB33700227A84 /* HSxLiveSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E324BD214FB33600227A84 /* HSxLiveSession.m */; };
+		A1E324C3214FB33700227A84 /* HSxLiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E324BE214FB33600227A84 /* HSxLiveView.m */; };
+		A1E324C4214FB33700227A84 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E324C0214FB33600227A84 /* UIView+YYAdd.m */; };
 		D960225CBACAF70D45BEC56C /* libPods-HSxLivePlayerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A149B437081E3C26D367DEA8 /* libPods-HSxLivePlayerDemoTests.a */; };
 		DECA8634BC17359BA755F46D /* libPods-HSxLivePlayerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FCFDCA3FCBEAB32FE1A9B6 /* libPods-HSxLivePlayerDemoUITests.a */; };
 /* End PBXBuildFile section */
@@ -99,6 +102,12 @@
 		A1E324B6214FACF900227A84 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A1E324B8214FAD0D00227A84 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A1E324BA214FB10F00227A84 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		A1E324BC214FB33600227A84 /* HSxLiveSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSxLiveSession.h; sourceTree = "<group>"; };
+		A1E324BD214FB33600227A84 /* HSxLiveSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSxLiveSession.m; sourceTree = "<group>"; };
+		A1E324BE214FB33600227A84 /* HSxLiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSxLiveView.m; sourceTree = "<group>"; };
+		A1E324BF214FB33600227A84 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		A1E324C0214FB33600227A84 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		A1E324C1214FB33700227A84 /* HSxLiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSxLiveView.h; sourceTree = "<group>"; };
 		A3FCFDCA3FCBEAB32FE1A9B6 /* libPods-HSxLivePlayerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSxLivePlayerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DD4F7E6119215766B1615E /* Pods-HSxLivePlayerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSxLivePlayerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSxLivePlayerDemoTests/Pods-HSxLivePlayerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -224,6 +233,12 @@
 				A1E32498214FA26500227A84 /* HSxLiveViewController.m */,
 				A1E3249A214FA27900227A84 /* HSxPlayerViewController.h */,
 				A1E3249B214FA27900227A84 /* HSxPlayerViewController.m */,
+				A1E324BC214FB33600227A84 /* HSxLiveSession.h */,
+				A1E324BD214FB33600227A84 /* HSxLiveSession.m */,
+				A1E324C1214FB33700227A84 /* HSxLiveView.h */,
+				A1E324BE214FB33600227A84 /* HSxLiveView.m */,
+				A1E324BF214FB33600227A84 /* UIView+YYAdd.h */,
+				A1E324C0214FB33600227A84 /* UIView+YYAdd.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -445,9 +460,12 @@
 			files = (
 				A1E32466214F96A400227A84 /* ViewController.m in Sources */,
 				A1E32496214F9A6B00227A84 /* BaseViewController.m in Sources */,
+				A1E324C2214FB33700227A84 /* HSxLiveSession.m in Sources */,
 				A1E32471214F96A600227A84 /* main.m in Sources */,
 				A1E3249C214FA27900227A84 /* HSxPlayerViewController.m in Sources */,
+				A1E324C4214FB33700227A84 /* UIView+YYAdd.m in Sources */,
 				A1E32463214F96A400227A84 /* AppDelegate.m in Sources */,
+				A1E324C3214FB33700227A84 /* HSxLiveView.m in Sources */,
 				A1E32499214FA26500227A84 /* HSxLiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
