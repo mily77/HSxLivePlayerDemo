@@ -40,6 +40,13 @@
     [_player setScalingMode:IJKMPMovieScalingModeAspectFill];
     
 }
+- (IBAction)playButtonAction:(UIButton *)sender {
+    if (![self.player isPlaying]) {
+        [self.player play];
+    }else{
+        [self.player pause];
+    }
+}
 
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
