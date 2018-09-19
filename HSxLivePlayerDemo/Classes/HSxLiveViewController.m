@@ -60,6 +60,7 @@
         case HSxLiveViewClickBeauty:
         {
             NSLog(@"dd");
+            self.session.beautyFace = !self.session.beautyFace;
         }
             break;
             
